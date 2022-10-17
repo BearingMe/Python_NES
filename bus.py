@@ -23,6 +23,7 @@ class BUS:
                 self.ram[0x8000 + i] = byte[i]
         print(self.ram[0x8000:0x802C])
         print(self.ram[0x8010:0x8016])
+        
         self.ram[0xFFFC] = 0x00
         self.ram[0xFFFD] = 0x80
 

@@ -76,7 +76,6 @@ class CPU:
 
 
     def reset(self):
-
         self.addr_abs = 0xFFFC
         low = self.read(self.addr_abs + 0)
         high = self.read(self.addr_abs + 1)
